@@ -1,6 +1,8 @@
 # cursos-2026
 Información sobre los cursos de arcilla polimérica de 2026
 
+[Página web](https://anabelchiqaorganization.github.io/cursos-2026/)
+
 El proyecto incluye:
 
 Una página de inicio

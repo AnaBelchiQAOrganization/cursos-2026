@@ -30,14 +30,25 @@
         <h2>Formulario de contacto</h2>
 
         <form id="contactar" action="/submit" method="post">
-            <label for="nombre">Nombre y apellidos</label><br><br>
-            <input id="nombre" type="text" name="nombre" placeholder="Nombre y apellidos" maxlength="100" required><br><br>
+            <fieldset>
+                <legend>Tus datos</legend>
+                <div>
+                    <label for="nombre">Nombre y apellidos</label><br>
+                    <input id="nombre" type="text" name="nombre" placeholder="Nombre y apellidos" maxlength="100" required>
+                </div>
+                
+                <div>
+                    <label for="email">Correo electrónico</label><br>
+                    <input id="email" type="email" name="email" placeholder="Correo electrónico" required>
+                </div>
+            </fieldset>
 
-            <label for="email">Correo electrónico</label><br><br>
-            <input id="email" type="email" name="email" placeholder="Correo electrónico" required>
-
-
-        </form>
+            <fieldset>
+                <legend>¿Sobre qué cursos quieres información?</legend>
+                <input id="cursos" type="checkbox" value="plug">
+                <label for="cursos">Plug & Play</label><br><br>
+            </fieldset>
+            </form>
     </section>
 </body>
 

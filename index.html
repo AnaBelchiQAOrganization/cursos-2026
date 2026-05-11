@@ -11,65 +11,71 @@
 </head>
 
 <body>
-    <!--Enlaces a los cursos-->
-    <h1>Cursos 2026</h1>
 
-    <a href="bio.html">Biografía</a>
+    <main>
 
-    <ul>
-        <li><a href="valence.html">Valence - Francia - 26 y 27 de Septiembre</a></li>
-        <li><a href="santiago.html">Santiago de Chile - 3, 4 y 5 de Diciembre</a></li>
-    </ul>
-    
-    <!--Formulario de contacto-->
-
-    <section id="contacto">
-        <p>
-            ¿Quieres más información? Contacta con Ana rellenado el siguente formulario
-        </p>
-
-        <h2>Formulario de contacto</h2>
-
-        <form id="contactar" method="get">
-            <fieldset>
-                <legend>Tus datos</legend>
-                <div>
-                    <label for="nombre">Nombre y apellidos</label><br>
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellidos" maxlength="100" required>
-                </div>
+        <!--Enlaces a los cursos-->
+        <h1>Cursos 2026</h1>
+        
+        <a href="bio.html">Biografía</a>
+        
+        <ul>
+            <li><a href="valence.html">Valence - Francia - 26 y 27 de Septiembre</a></li>
+            <li><a href="santiago.html">Santiago de Chile - 3, 4 y 5 de Diciembre</a></li>
+        </ul>
+        
+        <!--Formulario de contacto-->
+        
+        <section id="contacto">
+            <p>
+                ¿Quieres más información? Contacta con Ana rellenado el siguente formulario
+            </p>
+            
+            <h2>Formulario de contacto</h2>
+            
+            <form id="contactar" method="get">
+                <fieldset>
+                    <legend>Tus datos</legend>
+                    <div>
+                        <label for="nombre">Nombre y apellidos</label><br>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellidos" maxlength="100" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">Correo electrónico</label><br>
+                        <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                    </div>
+                </fieldset>
                 
-                <div>
-                    <label for="email">Correo electrónico</label><br>
-                    <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>¿Sobre qué cursos quieres información?</legend>
-                <input type="checkbox" name="curso" id="cursoplugfr" value="plugvalence">
-                <label for="cursoplugfr">Plug & Play - Valence (Francia)</label><br>
-
-                <input type="checkbox" name="curso" id="cursonebulaefr" value="nebulaevalence">
-                <label for="cursonebulaefr">Nebulae - Valence (Francia)</label><br>
-
-                <input type="checkbox" name="curso" id="cursotransparencias2cl" value="transparenciaschile">
-                <label for="cursotransparencias2cl">Transparencias 2.0 - Santiago (Chile)</label><br>
-
-                <input type="checkbox" name="curso" id="cursolineascl" value="lineaschile">
-                <label for="cursolineascl">Líneas en la arena - Santiago (Chile)</label><br>
-
-                <input type="checkbox" name="curso" id="cursonebulaecl" value="nebulaecl">
-                <label for="cursonebulaecl">Nebulae - Santiago (Chile)</label>
-            </fieldset>
-
-            <fieldset>
-                <label for="mensajetexto">Escribe tu pregunta</label><br>
-                <textarea name="mensaje" id="mensajetexto" cols="100" rows="6">Escribe tu pregunta (Max. 500 caracteres)</textarea><br>
-            </fieldset>
-
-            <button type="submit">Enviar</button>
+                <fieldset>
+                    <legend>¿Sobre qué cursos quieres información?</legend>
+                    <input type="checkbox" name="curso" id="cursoplugfr" value="plugvalence">
+                    <label for="cursoplugfr">Plug & Play - Valence (Francia)</label><br>
+                    
+                    <input type="checkbox" name="curso" id="cursonebulaefr" value="nebulaevalence">
+                    <label for="cursonebulaefr">Nebulae - Valence (Francia)</label><br>
+                    
+                    <input type="checkbox" name="curso" id="cursotransparencias2cl" value="transparenciaschile">
+                    <label for="cursotransparencias2cl">Transparencias 2.0 - Santiago (Chile)</label><br>
+                    
+                    <input type="checkbox" name="curso" id="cursolineascl" value="lineaschile">
+                    <label for="cursolineascl">Líneas en la arena - Santiago (Chile)</label><br>
+                    
+                    <input type="checkbox" name="curso" id="cursonebulaecl" value="nebulaecl">
+                    <label for="cursonebulaecl">Nebulae - Santiago (Chile)</label>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="mensajetexto">Escribe tu pregunta</label><br>
+                    <textarea name="mensaje" id="mensajetexto" cols="100" rows="6">Escribe tu pregunta (Max. 500 caracteres)</textarea><br>
+                </fieldset>
+                
+                <button type="submit">Enviar</button>
             </form>
-    </section>
-</body>
+        </section>
+        
+    </main>
 
-</html>
+    </body>
+    
+    </html>

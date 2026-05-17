@@ -26,7 +26,7 @@ h1 {
     text-transform: uppercase; /* Pone el título 1 en mayúsculas */
 }
 
-.color-negrita {
+.color-negrita strong {
     font-weight: 700;
     color: #C00000;
 }

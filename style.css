@@ -21,22 +21,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+     /*
+    línea contínual debajo del texto, de color rojo y de 2px de espesor
+    */
     border-bottom: solid 2px #C00000;
     line-height: 40px;
     text-transform: uppercase; /* Pone el título 1 en mayúsculas */
 }
 
 h1 .destacado {
+     /*
+    Pone el texto en rojo y asegura el groso fino cuando el texto está en un título 1
+    */
     color: #C00000;
     font-weight: 300;
 }
 
 .destacado {
-    color: #C00000;
+     /*
+    pone un texto en negrita y color rojo
+    */
     font-weight: 700;
+    color: #C00000;
 }
 
+img{
+    /*
+    centra las imágenes en horizontal dentro de la página
+    */
+    display: block;
+    margin: 1rem auto;
+}
 .cita-ana {
+     /*
+    justifica una cita a la derecha de la página (sin margen)
+    y le cambia el estilo a cursiva y le baja el tamaño
+    */
     text-align: right;
     font-style: italic;
     font-size: 0.95rem;
@@ -44,6 +64,13 @@ h1 .destacado {
 }
 
 .foto-derecha {
+     /*
+    justifica una imagen a la derecha de la página 
+    Mantiene el tamaño al 35% del ancho del contenedor
+    permite texto alrededor de la imagen
+    deja un margen pequeño alrededor de la imagen, excepto en la derecha
+    No permite que el ancho de la imagen sea menor de 200 px (responsive)
+    */
     width: 35%;
     float: right;
     margin: 0.5rem 0 0.5rem 0.5rem;

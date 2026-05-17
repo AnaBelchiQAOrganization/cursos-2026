@@ -26,10 +26,16 @@ h1 {
     text-transform: uppercase; /* Pone el título 1 en mayúsculas */
 }
 
-.color-negrita strong {
-    font-weight: 700;
+h1 .destacado {
     color: #C00000;
+    font-weight: 300;
 }
+
+.destacado {
+    color: #C00000;
+    font-weight: 700;
+}
+
 .cita-ana {
     text-align: right;
     font-style: italic;
